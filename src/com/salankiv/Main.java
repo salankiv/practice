@@ -9,5 +9,14 @@ public class Main {
         newArray.printHorzArray();
         newArray.insertionSort();
 
+        int[] array = new int[100];
+
+        for (int i = 0; i < 100; i++) {
+            array[i] = i;
+        }
+
+        BinarySearch binarySearch = new BinarySearch();
+
+        System.out.println(binarySearch.search(array, 66));
     }
 }
